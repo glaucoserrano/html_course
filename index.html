@@ -4,9 +4,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <title>Mirror Fashion</title>
 </head>
 <body>
-    <h1> Ola sou a pagina index</h1>
+    <header class="container">
+        <!-- Cabecalho-->
+        <h1>
+            <img src="img/logo.png" alt ="Logo da Mirror Fashion" /> 
+        </h1>
+        <p class ="sacola">
+            Nenhum item na sacola de compras
+        </p>
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="#">Sua Conta</a></li>
+                <li><a href="#">Lista de Desejos</a></li>
+                <li><a href="#">Cartão Fidelidade</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container destaque">
+        <section class="busca">
+            <h2>Busca</h2>
+            <form>
+                <input type="search">
+                <button>Buscar</button>
+            </form>
+        </section>
+        <!--Fim da busca-->
+        <section class="menu-departamentos">
+            <h2>Departamentos</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Blusas e Camisetas</a></li>
+                    <li><a href="#">Calças</a></li>
+                    <li><a href="#">Saias</a></li>
+                    <li><a href="#">Vestidos</a></li>
+                    <li><a href="#">Sapatos</a></li>
+                    <li><a href="#">Bolsas e Carteiras</a></li>
+                    <li><a href="#">Acessorios</a></li>
+                </ul>
+            </nav>
+        </section>
+        <!--Fim do menu depoartamentos-->
+        <section class="banner-destaque">
+            <figure>
+                <img src="img/destaque-home.png" alt="Promoção: Big City Night"/>
+            </figure>
+        </section>
+        <!--fim do banner destaque-->
+    </div>
+    <!--fim do container .destaque-->
+    <div class="container paineis">
+        <!-- paineis de mais vendidos e de novidades-->
+        <section class="painel novidades">
+            <h2>Novidades</h2>
+            <ol>
+                <!--primeiro produto-->
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="./img/Produtos/miniatura1.png" />
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <!--fim do primeiro produto-->
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="./img/Produtos/miniatura2.png" />
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="./img/Produtos/miniatura3.png" />
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="./img/Produtos/miniatura4.png" />
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="./img/Produtos/miniatura5.png" />
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="./img/Produtos/miniatura6.png" />
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ol> 
+        </section>
+        <section class="painel mais-vendidos">
+            <h2>Mais Vendidos</h2>
+            <ol>
+                <!--primeiro produto-->
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="./img/Produtos/miniatura1.png" />
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <!--fim do primeiro produto-->
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="./img/Produtos/miniatura2.png" />
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="./img/Produtos/miniatura3.png" />
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="./img/Produtos/miniatura4.png" />
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="./img/Produtos/miniatura5.png" />
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="./img/Produtos/miniatura6.png" />
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ol>
+        </section>
+    </div>
+    <!--fim do paineis-->
+    <footer>
+        <div class="container">
+            <img src="img/logo-rodape.png" alt="Logo da Mirror Fashion" />
+            <ul class="social">
+                <li><a href="http://facebook.com/mirrofashion">facebook</a></li>
+                <li><a href="http://twitter.com/mirrofashion">twitter</a></li>
+                <li><a href="http://plus.google.com/mirrofashion">google+</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

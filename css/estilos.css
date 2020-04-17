@@ -1,50 +1,6 @@
-body {
+body{
     color: #333333;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-    margin: 0 auto;
-    width: 940px;
-}
-h1 {
-    background-image: url("../img/sobre-background.jpg");
-    padding: 10px;
-}
-h2 {
-    border-bottom: 2px solid #333333;
-    margin-top: 30px;
-}
-p{
-    padding: 0 45px;
-    text-indent: 15px;
-}
-figure {
-    background-color: #f2EDED;
-    border: 1px solid #ccc;
-    text-align: center;
-    padding: 15px;
-    margin: 30px;
-}
-figcaption {
-    font-style: italic;
-    margin-top: 10px;
-}
-#centro-distribuicao{
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
-}
-#rodape{
-    color: #777;
-    margin: 30px 0;
-    padding: 30px 0;
-}
-#rodape img{
-    margin-right: 30px;
-    vertical-align: middle;
-    width: 94px;
-}
-#familia-pelho{
-    float: right;
-    margin: 0 0 10px;
 }
 header{
     position: relative;
@@ -85,6 +41,91 @@ header{
 .container{
     margin: 0 auto;
     width: 940px;
+}
+.busca,
+.menu-departamentos{
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+}
+.busca h2,
+.busca form,
+.menu-departamentos h2{
+    margin:10px;
+}
+.menu-departamentos li{
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+.menu-departamentos a{
+    color: #333333;
+    text-decoration: none;
+}
+.busca input[type=search]{
+    width: 170px;
+}
+.busca button{
+    /* Trocando imagem*/
+    background-image: url("../img/busca.png");
+    background-repeat: no-repeat;
+    border: none;
+
+    width: 20px;
+    height: 20px;
+
+    text-indent: -9999px;
+}
+.menu-departamentos{
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.destaque{
+    margin-top: 10px;
+}
+.painel{
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+
+.painel li{
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.novidades{
+    float: left;
+    background-color: #f5DCDC;
+}
+
+.mais-vendidos{
+    float: right;
+    background-color: #DCDCF5;
+}
+
+.painel h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-top: 10px;
+}
+
+.painel a{
+    color:#333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
 }
 footer {
     background-image: url("../img/fundo-rodape.png");
