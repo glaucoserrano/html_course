@@ -65,6 +65,19 @@
                         </dl>
                     </div>
                 </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="qtd">Quantidade:</label>
+                            <input type="number" id="qtd" min="1" max="99" value="1" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="total">Total:</label>
+                            <output id="total" class="form-control">R$ 129,90</output> 
+                        </div>
+                    </div>
+                </div>
+                <dd id="preco">R$ 129,90</dd>
             </div>
             <form class="col-md-8">
                 <div class="row">
@@ -80,7 +93,7 @@
                         </div>
                         <div class="form-group">
                             <label for="cpf">CPF</label>
-                            <input type="text" class="form-control" name="cpf" id="cpf" placeholder="000.000.000-00" required>
+                            <input type="text" class="form-control" name="cpf" id="cpf" placeholder="000.000.000-00" data-mask="999.999.999-99" required>
                         </div>
                         <div class="form-group custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input"  id="newsletter" value="sim" checked>
@@ -95,7 +108,7 @@
                             <div class="input-group">
                                 <div class="input-group-prepend">
                                     <label class="input-group-text" for="numero-cartao">Numero - CVV</label>
-                                    <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+                                    <input type="text" class="form-control" id="numero-cartao" name="numero-cartao" data-mask="9999 9999 9999 9999 - 999">
                                 </div>
                             </div>
                         </div>
@@ -131,5 +144,7 @@
     </div>
     <script type="text/javascript" src="./js/jquery.js"></script>
     <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script type="text/javascript" src="./js/total.js"></script>
+    <script type="text/javascript" src="./js/inputmask-plugin.js"></script>
 </body>
 </html>
